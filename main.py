@@ -5,6 +5,7 @@ from PyQt6.QtWidgets import QDialog, QApplication, QStackedWidget
 from threading import Thread
 import os
 
+
 # UI for bot
 class BotUi(QDialog):
     def __init__(self):
