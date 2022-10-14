@@ -1,4 +1,4 @@
-![](./images/Clemson_Registration_Bot.png)
+![](./images/🐾_Clemson_Registration_Bot.png)
 # Description
 Automatically adds all planned classes immediately at specified time
 
@@ -12,5 +12,5 @@ pip install requirements.txt
 python main.py
 ```
 
-# Demonstration
+# Image
 ![](./images/ui.JPG)
