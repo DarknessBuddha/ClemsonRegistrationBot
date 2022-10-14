@@ -1,4 +1,4 @@
-![](./images/ClemsonRegistrationBot.png)
+![](./images/Clemson_Registration_Bot.png)
 # Description
 Automatically adds all planned classes immediately at specified time
 
