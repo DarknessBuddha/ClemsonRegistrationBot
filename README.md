@@ -3,6 +3,7 @@
 Automatically adds all planned classes immediately at specified time
 
 ## Requirements
+Python </br>
 Firefox browser
 
 ## Installation
