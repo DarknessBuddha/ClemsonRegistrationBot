@@ -24,9 +24,12 @@ class BotUi(QDialog):
         time = self.time_box.time()
         return time.hour(), time.minute()
 
+    def get_pin(self):
+        return self.pin_box.text()
+
     def start_script(self):
         self.script_thread = Thread(target=rb.script,
-                                    args=(self.get_username(), self.get_password(), self.get_time())
+                                    args=(self.get_username(), self.get_password(), self.get_time(), self.get_pin())
                                     )
         self.script_thread.start()
 

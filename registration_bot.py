@@ -10,7 +10,7 @@ from zoneinfo import ZoneInfo
 import time
 
 
-def script(username, password, times):
+def script(username, password, times, pin):
     try:
         # go to iroar
         PATH = 'geckodriver.exe'
@@ -59,6 +59,10 @@ def script(username, password, times):
         select_results = driver.find_element(By.ID, 'select2-results-1')
         wait_to_load()
         select_results.find_element(By.TAG_NAME, 'li').click()
+
+        if pin:
+            time.sleep(.2)
+            driver.find_element(By.ID, 'input_alt_pin').send_keys(pin)
 
         # set start time
         hour, minute = times
