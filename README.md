@@ -3,7 +3,7 @@
 Automatically adds all planned classes immediately at specified time
 
 ## Note!
-The registration site on iroar has updated. The add all button has been removed. As of now, this program needs to be updated.
+The registration page on iroar has updated. The add all button has been removed. As of now, this program needs to be updated.
 
 ## Requirements
 Python </br>
